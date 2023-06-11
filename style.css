@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    width: 100px;
+}
+
+
+#hero {
+    background:url("images/dan-freeman-7Zb7kUyQg1E-unsplash.jpg");
+    border: 2px solid black;
+    background-size: cover;
+    height: 700px;
+    
+}
+
+.heroTitle {
+    color: white;
+}
+
+
+
+#visit {
+    background-color: #1D3557;
+    width: 225px;
+    margin: 122px auto 0px auto;
+    border-radius: 10px;
+    font-size: 32px;
+    height: 42px;
+}
+
+#enjoy {
+    background-color: #457B9D;
+    width: 600px;
+    border-radius: 10px;
+    margin: 10px auto 100px auto;
+}
+
+.act {
+    background-color: #F1FAEE;
+    padding-top: 10px;
+    overflow:hidden;
+}
+
+.three {
+    /* display: flex;
+    justify-content: space-evenly;
+    flex: 1; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#topThree {
+    font-size: 24px;
+    line-height: 27.6px;
+    padding-bottom: 74px;
+}
+
+.act {
+    padding-bottom: 50px;
+}
+
+.act img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* .act img:hover {
+    border: red;
+} */
+
+.guide {
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    padding-top: 23px;
+    padding-left: 13px;
+    padding-right: 11px;
+    padding-bottom: 22px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    background-color:#A8DADC;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1D3557;
+    height: 250px;
+}
+
+.guide img:hover {
+    box-shadow: 10px 6px 100px #1D3557;
+}
+
+.para {
+    /* width: 189px; */
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.guide img {
+    margin: 0;
+    width: 250px;
+    border-radius: 15%;
+    /* padding-right: 10px; */
+}
+
+.yourG {
+    font-size: 24px;
+}
+
+.sections {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.sections img:hover{
+    border: 5px solid red;
+    padding:0;
+}
+
+@media (max-width: 1146px) {
+    .sections {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+    .sections img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 900px) {
+    #enjoy {
+        width: 270px;
+    }
+}
